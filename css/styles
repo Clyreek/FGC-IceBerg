@@ -1,1 +1,123 @@
+/* Titles */
+h1{
+    text-align: center;
+    padding-left: 10px;
+    height: 100px;
+    font-family: monospace;
+    font: bold;
+    background-color: rgba(229,180,6,255);
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 45px;
+    width: 67%;
+    font-family: michroma;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
 
+/* Used for headings */
+h2{
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#Welcome{
+    font-size: 50px;
+    font-family: monospace;
+
+}
+/* General info*/
+aside {
+    width: 15%;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-left: 10px;
+    float: right;
+    background-color: rgba(229,180,6,255);
+    display: flex;
+    /* position: absolute; */
+    height: 490px;
+    text-align: left;
+    }
+
+/*Aside color I added for an assignment*/    
+aside:hover{
+    color: purple;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+}
+
+main{
+    background-color: rgb(29, 27, 27);
+    padding-left: 10px;
+    margin-left: 200px;
+    margin-right: 300px;
+    text-align: center;
+    padding-bottom: 20%;
+    width: 67%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /* font-weight: bold; */
+}
+/*Styling for the "About Me" Section*/
+footer{
+    background-color: black;
+    color: gray;
+    padding-left: 10px;
+    margin-left:200px;
+    margin-right:200px;
+    height: 100px;
+    margin-top: 0%;
+    width: 67%;
+}
+
+
+/* Styling for the pictures used as navigation */
+nav{
+    /* padding-left: 10px; */
+    /* margin-left:300px; */
+    /* margin-right:300px; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 200px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+article {
+    text-align: left;
+    color: white;
+    margin-left: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+/* Form asking for improvements */
+form{
+    display: block;
+    position: relative;
+    top: 200px;
+}
+
+/* list for Wild Assault in GGS page */
+dl{
+   text-align: left; 
+}
+
+dt{
+    font-weight: bold;
+}
+
+/* Font for the body paragraphs */
+@font-face {
+    font-family: 'michroma';
+    src: url(../fonts/michroma.woff2) format('woff2'),
+         url(../fonts/michroma.woff) format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
