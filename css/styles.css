@@ -3,7 +3,7 @@ h1{
     text-align: center;
     padding-left: 10px;
     height: 100px;
-    font-family: monospace;
+    font-family: michroma;
     font: bold;
     background-color: rgba(229,180,6,255);
     margin-left: 15%;
@@ -13,17 +13,24 @@ h1{
     font-family: michroma;
     margin-top: 0%;
     margin-bottom: 0%;
+    color: black;
 }
 
 /* Used for headings */
 h2{
-    font-family: monospace;
+    font-family: michroma;
     font-weight: bold;
+}
+
+p pre li{
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 #Welcome{
     font-size: 50px;
     font-family: monospace;
+    text-align: left;
 
 }
 /* General info*/
@@ -35,12 +42,16 @@ aside {
     float: right;
     background-color: rgba(229,180,6,255);
     display: flex;
-    /* position: absolute; */
     height: 490px;
     text-align: left;
+    font-size: 100%;
+    font-family: michroma;
+    font-weight:900;
+
+    
     }
 
-/*Aside color I added for an assignment*/    
+/*Aside hover color I added for an assignment*/    
 aside:hover{
     color: purple;
 }
@@ -59,7 +70,6 @@ main{
     width: 67%;
     margin-top: 0%;
     margin-bottom: 0%;
-    /* font-weight: bold; */
 }
 /*Styling for the "About Me" Section*/
 footer{
@@ -73,12 +83,17 @@ footer{
     width: 67%;
 }
 
+footer:visited{
+    color: gray;
+}
+
+footer:link{
+    color: gray;
+}
+
 
 /* Styling for the pictures used as navigation */
 nav{
-    /* padding-left: 10px; */
-    /* margin-left:300px; */
-    /* margin-right:300px; */
     display: flex;
     flex-direction: row;
     position: relative;
@@ -92,15 +107,21 @@ article {
     text-align: left;
     color: white;
     margin-left: 20%;
+    margin-right: 25%;
     margin-top: 0%;
     margin-bottom: 0%;
+    font-family: monospace;
 }
 
 /* Form asking for improvements */
 form{
-    display: block;
+   
+    display: flex;
     position: relative;
     top: 200px;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 25%;
 }
 
 /* list for Wild Assault in GGS page */
@@ -109,7 +130,7 @@ dl{
 }
 
 dt{
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 /* Font for the body paragraphs */
