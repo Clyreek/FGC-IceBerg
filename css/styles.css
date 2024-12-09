@@ -22,7 +22,17 @@ h2{
     font-weight: bold;
 }
 
-p pre li{
+p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+pre{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+li{
     font-weight: bolder;
     font-size: 20px;
 }
