@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="Utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link href="Css/Styles.css" type="text/css" rel="stylesheet"/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+
+	<Title>FGC IceBerg</Title>
+	</head>
+	
+	<body>
+		<div>
+		<!--includes Company Name and images that act as links to their respective games-->
+		<header>
+		<a href="index.html"><h1>FGC IceBerg</h1></a>
+			<!--Nav with image links-->
+			<nav>
+				<a href="GGS.html"><img src="Pictures/Solbadguy.png" width="300" height="150" style="float:left" alt="Guilty Gear Strive"></a>
+				<a href="DBFZ.html"><img src="Pictures/Goku.jpg" width="300" height="150"  alt="Dragonball Fighterz"></a>
+				<a href="SF6.html"><img src="Pictures/Luke.webp" width="300" height="150" style="float:right" alt="Street Fighter 6"></a>
+			</nav>
+		</header>
+		<!-- the main section is for the welcoming message-->
+		<main>
+			<aside>
+			<section>
+			<h2>Info</h2>
+			<ul id="GI">
+				<li><a href="terms.html">Terms</a></li>
+				<li>Tips</li>
+				<li>Other Resources</li>
+				
+			</ul>
+			</section>
+			</aside>
+			<!--Welcome message-->
+			<section>
+				<article>
+                    <h2>Terms</h2>
+                    <pre>
+                    Okizeme/Oki- Doing a move after a knockdown so the aggresor can continue there pressure
+
+                    BlockString- A blokstring is a combination of buttons that the aggresor does to their opponent when they are blocking. They are gapless for the most part but players can slow down their inputs to leave gaps to bait out someone mashing.
+                    
+                    Frames- frames determine who's turn it is in fighting games. if a move is plus it stays aggresors turn, if it is minus it is the blocking blacking players terms
+
+                    Dragon Punch/DP - A frame 1 fully invincible move that is usually used to punish someone for leaving a gap in their block string or unexpectedly after a knockdown. 
+                    </pre>
+
+                </article>
+			</section>
+        </main>
+		
+		
+		<!--About Us Section--> 
+		<footer>
+			<section>
+			<h2>About Us</h2>	
+			<ul>
+				<li><a href="wtswm.html">Why This Site Was Made</a></li>
+				<li><a href="creator.html">Creator</a></li>
+			</ul>
+			</section>
+		</footer>
+		</div>
+	</body>
+
+
+</html>
