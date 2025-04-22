@@ -49,6 +49,7 @@ aside{
     position: relative;
     font-family: michroma;
     text-align:left;
+    color: black;
     background-color: rgb(230, 230, 20);
     flex-direction: column;
     float: right;
@@ -104,6 +105,7 @@ form{
 #logo{
     font-size: 50px;
     font-family: michroma;
+    color: black;
 }
 
 /* center an image */
