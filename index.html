@@ -6,77 +6,84 @@
 		<meta charset="Utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+		<link href="Css/Styles.css" type="text/css" rel="stylesheet"/>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
 
-	<Title>FGC IceBerg</Title>
+	<title>FGC IceBerg</title>
 	</head>
 	
 	<body>
-		<div>
+
+		
+		<main>
 		<!--includes Company Name and images that act as links to their respective games-->
 		<header>
-		<a href="index.html"><h1>FGC IceBerg</h1></a>
+		
+		<a href="index.html"><h1 id="logo">FGC IceBerg</h1></a>
 			<!--Nav with image links-->
 			<nav>
-				<a href="ggs.html"><img src="pictures/solbadguy.png" width="300" height="150" style="float:left" alt="Guilty Gear Strive"></a>
-				<a href="dbfz.html"><img src="pictures/goku.jpg" width="300" height="150"  alt="Dragonball Fighterz"></a>
-				<a href="sf6.html"><img src="pictures/luke.webp" width="300" height="150" style="float:right" alt="Street Fighter 6"></a>
+				<a href="ggs.html"><img src="pictures/solbadguy.png" height="150" width="300" alt="Guilty Gear Strive"></a>
+				<a href="dbfz.html"><img src="pictures/goku.jpg" height="150" width="300" alt="Dragonball Fighterz"></a>
+				<a href="sf6.html"><img src="pictures/luke.webp"  height="150" width="300" alt="Street Fighter 6"></a>
 			</nav>
+		
 		</header>
-		<!-- the main section is for the welcoming message-->
-		<main>
-			<aside>
-			<section>
+		<section>
+		
+		<!-- Aside section for misceallaneous links -->
+		<aside>
 			<h2>Info</h2>
 			<ul id="GI">
 				<li><a href="terms.html">Terms</a></li>
 				<li><a href="tips.html"> Tips</a></li>
-				<li>Other Resources</li>
-				
 			</ul>
-			</section>
-			</aside>
-			<!--Welcome message-->
-			<section>
-				<article>
-				<h2 id="Welcome">Welcome!</h2>
+			
+			
+		</aside>
+		</section>
+			
+		<article>
+				
+				<!-- Welcome message -->
+				<h2 id="welcome">Welcome!</h2>
+				<!--Intro/Welcome that I'm still working on-->
+				<!--<video width="50%" height="50%" controls>
+					<source src="" type="video/webm">
+					<source src="" type="video/obg">
+					<source src="" type="video/mp4">
+				</video>-->
 				<p> 
 					Fighting games are hard to get into for multiple reasons. They all play different, it could be your first fighting game ever, you get run over by someone else online because Fighting game tutorials are infamously bad. Whatever the reason we want to make it easier for anyone to get into fighting games.
 				</p>
-				</article>
-			</section>
-		<form name="Suggestions" action="#" method="get">
-			<label for="Feedback" style="color: white;">Any Suggestions?</label>
-			<input type="text" id="Feedback" name="Feedback" placeholder="What could be better?">
-			
-			<label for="Games" style="color: white;">What games would you want to see?</label>
-			<input type="text" id="Games" name="Games" placeholder="Blazeblue?">
+		<!-- form asking for any improvements -->
+		<form name="suggestions" action="#" method="get">
+				<label for="feedback" style="color: white;">Any Suggestions?</label>
+				<input type="text" id="feedback" name="feedback" placeholder="What could be better?">
+				
+				<label for="games" style="color: white;">What games would you want to see?</label>
+				<input type="text" id="games" name="games" placeholder="Blazeblue?">
 
-			<label for="Firstname" style="color: white;"> First name?</label>
-			<input type="text" id="Firstname" name="Firstname" placeholder="First Name?">
+				<label for="firstname" style="color: white;"> First name?</label>
+				<input type="text" id="firstname" name="firstname" placeholder="First Name?">
 
-			<input type="submit" value="submit your feedback!">
+				<input type="submit" value="submit your feedback!">
  		
 		</form>
-		</main>
-		
-		
-		<!--About Us Section--> 
+				
+		</article>
+				
 		<footer>
-			<section>
+			<!-- About us Section -->
 			<h2>About Us</h2>	
 			<ul>
-				<li><a href="wtswm.html">Why This Site Was Made</a></li>
-				<li><a href="creator.html">Creator</a></li>
+				<li><a id="footer" href="wtswm.html">Why This Site Was Made</a></li>
+				<li><a id="footer" href="creator.html">Creator</a></li>
 			</ul>
-			</section>
-		</footer>
-		</div>
+	
+		</footer>			
+		</main>
 	</body>
-
-
 </html>
