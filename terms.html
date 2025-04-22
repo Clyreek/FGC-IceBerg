@@ -6,7 +6,7 @@
 		<meta charset="Utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+		<link href="Css/styles.css" type="text/css" rel="stylesheet"/>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,62 +16,59 @@
 	</head>
 	
 	<body>
-		<div>
+		<main>
 		<!--includes Company Name and images that act as links to their respective games-->
 		<header>
-		<a href="index.html"><h1>FGC IceBerg</h1></a>
+		<a href="index.html"><h1 id="logo">FGC IceBerg</h1></a>
 			<!--Nav with image links-->
 			<nav>
-				<a href="ggs.html"><img src="pictures/solbadguy.png" width="300" height="150" style="float:left" alt="Guilty Gear Strive"></a>
-				<a href="dbfz.html"><img src="pictures/goku.jpg" width="300" height="150"  alt="Dragonball Fighterz"></a>
-				<a href="sf6.html"><img src="pictures/luke.webp" width="300" height="150" style="float:right" alt="Street Fighter 6"></a>
+				<a href="ggs.html"><img src="pictures/solbadguy.png" height="150" width="300" alt="Guilty Gear Strive"></a>
+				<a href="dbfz.html"><img src="pictures/goku.jpg" height="150" width="300" alt="Dragonball Fighterz"></a>
+				<a href="sf6.html"><img src="pictures/luke.webp"  height="150" width="300" alt="Street Fighter 6"></a>
 			</nav>
 		</header>
 		<!-- the main section is for the welcoming message-->
-		<main>
+
 			<aside>
 			<section>
 			<h2>Info</h2>
 			<ul id="GI">
 				<li><a href="terms.html">Terms</a></li>
-				<li>Tips</li>
-				<li>Other Resources</li>
-				
+				<li><a href="tips.html"> Tips</a></li>
 			</ul>
-			</section>
+			
+		</section>
 			</aside>
-			<!--Welcome message-->
 			<section>
-				<article>
-                    <h2>Terms</h2>
-            <p>Okizeme/Oki- Doing a move after a knockdown so the aggresor can continue there pressure</p>
-			<br>		
-			<p>BlockString- A blokstring is a combination of buttons that the aggresor does to their opponent when they are blocking. They are gapless for the most part but players can slow down their inputs to leave gaps to bait out someone mashing.</p>
-			<br>		
+			
+				<!-- main content -->
+			<article>
+                <h2>Terms</h2>
+            
+				<p>Okizeme/Oki- Doing a move after a knockdown so the aggresor can continue there pressure</p>
+				<br>		
+				
+				<p>BlockString- A blokstring is a combination of buttons that the aggresor does to their opponent when they are blocking. They are gapless for the most part but players can slow down their inputs to leave gaps to bait out someone mashing.</p>
+				<br>		
        
-			<p>Frames- frames determine who's turn it is in fighting games. if a move is plus it stays aggresors turn, if it is minus it is the blocking blacking players terms</p>
-			<br>		
+				<p>Frames- frames determine who's turn it is in fighting games. if a move is plus it stays aggresors turn, if it is minus it is the blocking blacking players terms</p>
+				<br>		
 
-			<p>Dragon Punch/DP - A frame 1 fully invincible move that is usually used to punish someone for leaving a gap in their block string or unexpectedly after a knockdown.</p> 
-          </pre>
-
-                </article>
+				<p>Dragon Punch/DP - A frame 1 fully invincible anti-air that is usually used to punish someone for leaving a gap in their pressure.</p> 
+          
+            </article>
 			</section>
-        </main>
-		
-		
+        
 		<!--About Us Section--> 
 		<footer>
 			<section>
 			<h2>About Us</h2>	
 			<ul>
-				<li><a href="wtswm.html">Why This Site Was Made</a></li>
-				<li><a href="creator.html">Creator</a></li>
+				<li><a id="footer" href="wtswm.html">Why This Site Was Made</a></li>
+				<li><a id="footer" href="creator.html">Creator</a></li>
 			</ul>
 			</section>
 		</footer>
-		</div>
+		</main>
 	</body>
-
-
 </html>

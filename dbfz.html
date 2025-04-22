@@ -6,7 +6,7 @@
 		<meta charset="Utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+		<link href="Css/Styles.css" type="text/css" rel="stylesheet"/>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,62 +14,66 @@
 
 	<Title>FGC IceBerg</Title>
 	</head>
+
 	<body>
-		<div>
-		<!--includes Company Name and images that act as links to their respective games-->
-		<header>
-			<a href="index.html"><h1>FGC IceBerg</h1></a>
+	<main>
+	<header>
+			<!-- Logo -->
+			<a href="index.html"><h1 id="logo">FGC IceBerg</h1></a>
 			<!--Nav with image links-->
 			<nav>
-				<a href="ggs.html"><img src="pictures/solbadguy.png" width="300" height="150" style="float:left"></a>
-				<a href="dbfz.html"><img src="pictures/goku.jpg" width="300" height="150" style="float:center"></a>
-				<a href="sF6.html"><img src="pictures/luke.webp" width="300" height="150" style="float:right"></a>
+				<a href="ggs.html"><img src="pictures/solbadguy.png" height="150" width="300" alt="Guilty Gear Strive"></a>
+				<a href="dbfz.html"><img src="pictures/goku.jpg" height="150" width="300" alt="Dragonball Fighterz"></a>
+				<a href="sf6.html"><img src="pictures/luke.webp"  height="150" width="300" alt="Street Fighter 6"></a>
 			</nav>
-		</header>
-		<!-- the main section for the Dragonball Fighterz page-->
-		<main>
-			<aside>
-			<section>
+	</header>
+	
+	<!-- Aside section for misceallaneous links -->
+	<aside>
+	<section>
 			<h2>Info</h2>
 			<ul id="GI">
 				<li><a href="terms.html">Terms</a></li>
-				<li>Tips</li>
-				<li>Other Resources</li>
+				<li><a href="tips.html"> Tips</a></li>
 				
 			</ul>
-			</section>
-			</aside>
-			<article>
-				<h2>Dragonball Fighterz</h2>
-				<p>Dragonball Fighterz is a 3v3 anime tag game with assist made by Arc System Works. It is a great game for all levels because it has a very low skill floor and high skill ceiling.</p>
+	</section>
+	</aside>
+
+	<!-- main content -->
+	<article>
+				<h2>Dragonball FighterZ</h2>
+				<p>Dragonball FighterZ is a 3v3 anime tag game with assist made by Arc System Works. It is a great game for all levels because it has a very low skill floor and high skill ceiling.</p>
 				<h2>System Mechanics</h2>
 				<p>Since Dragonball Fighterz is a assist game AND a anime fighting game you will regularly explode in 2 hits but Dragonball Fighterz has a alot of defensive mechanics and a couple of comeback mechanics.</p>
-				<dt>Sparking</dt>
+				<h2>Sparking</h2>
 				<p>Sparking is the main comeback and defensive mechanic and you can activate sparking while blocking to get an opponent off you or to deny their mix-up. On top of that you'll get additional benefits such as:</p>
 				<br>
-				<dd>Being able to cancel anything into anything as long as it's not a repeating move</dd>
-				<dd>Blue life regen</dd>
-				<dd>Extra damage.</dd>
-				<dd>Depennnding on how many characters are dead sparking will last longer</dd>
+
+				<!--Image of a character sparking-->
+				<img  id="cim" src="pictures/sparkingblast.png" alt="insert pictureof sparking">
+
+				<ul>
+				<li>Being able to cancel anything into anything as long as it's not a repeating move</li>
+				<li>Blue life regen</li>
+				<li>Extra damage.</li>
+				<li>Depennnding on how many characters are dead sparking will last longer</li>
+				</ul>
 
 				<h2>Limit Break</h2>
 				<p>Limit Break is autmotatically activated when you have one character left. It just buffs a characters damage, which stacked with sparking can help with a come back.</p>
-			</article>
-		</main>
+	</article>
 		
-		
-		<!--About Us Section--> 
-		<footer>
-			<section>
+	<!--About Us Section--> 
+	<footer>
+	<section>
 			<h2>About Us</h2>	
 			<ul>
-				<li><a href="wtswm.html">Why This Site Was Made</a></li>
-				<li><a href="creator.html">Creator</a></li>
+				<li><a id="footer" href="wtswm.html">Why This Site Was Made</a></li>
+				<li><a id="footer" href="creator.html">Creator</a></li>
 			</ul>
-			</section>
-		</footer>
-		</div>
+	</section>
+	</footer>
+	</main>
 	</body>
-
-
 </html>

@@ -6,7 +6,7 @@
 		<meta charset="Utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+		<link href="Css/Styles.css" type="text/css" rel="stylesheet"/>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,26 +16,27 @@
 	</head>
 	
 	<body>
-		<div>
+		<!-- the main section is for the welcoming message-->
+		<main>
 		<!--includes Company Name and images that act as links to their respective games-->
 		<header>
-		<a href="index.html"><h1>FGC IceBerg</h1></a>
+		<a href="index.html"><h1 id="logo">FGC IceBerg</h1></a>
 			<!--Nav with image links-->
 			<nav>
-				<a href="ggs.html"><img src="pictures/solbadguy.png" width="300" height="150" style="float:left" alt="Guilty Gear Strive"></a>
-				<a href="dbfz.html"><img src="pictures/goku.jpg" width="300" height="150"  alt="Dragonball Fighterz"></a>
-				<a href="sf6.html"><img src="pictures/luke.webp" width="300" height="150" style="float:right" alt="Street Fighter 6"></a>
+				<a href="ggs.html"><img src="pictures/solbadguy.png" height="150" width="300" alt="Guilty Gear Strive"></a>
+				<a href="dbfz.html"><img src="pictures/goku.jpg" height="150" width="300" alt="Dragonball Fighterz"></a>
+				<a href="sf6.html"><img src="pictures/luke.webp"  height="150" width="300" alt="Street Fighter 6"></a>
 			</nav>
 		</header>
-<!-- the main section is for the welcoming message-->
-		<main>
+		
+			
 			<aside>
 			<section>
 			<h2>Info</h2>
 			<ul id="GI">
 				<li><a href="terms.html">Terms</a></li>
-				<li>Tips</li>
-				<li>Other Resources</li>
+				<li><a href="tips.html"> Tips</a></li>
+				
 			</ul>
 			</section>
 			</aside>
@@ -51,7 +52,7 @@
                     </ul>
                 </article>
 			</section>
-</main>
+
 		
 		
 		<!--About Us Section--> 
@@ -59,12 +60,12 @@
 			<section>
 			<h2>About Us</h2>	
 			<ul>
-				<li><a href="wtswm.html">Why This Site Was Made</a></li>
-				<li><a href="creator.html">Creator</a></li>
+				<li><a id="footer" href="wtswm.html">Why This Site Was Made</a></li>
+				<li><a id="footer" href="creator.html">Creator</a></li>
 			</ul>
 			</section>
 		</footer>
-		</div>
+		</main>
 	</body>
 
 
