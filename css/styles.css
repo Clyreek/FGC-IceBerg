@@ -15,6 +15,7 @@ main{
     position: relative;
     background-color: rgb(26, 23, 23);
     width:70%;
+    max-width: 100%;
     height: 100%;
     margin-left: 15%;
     margin-right: 10%;
@@ -34,6 +35,7 @@ header{
 /* Nav Styling */
 nav{
     flex-direction: column;
+    max-width: 100%;
 }
 
 /* Article Styling */
@@ -114,6 +116,7 @@ form{
     padding-top: 3%;
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 /* Link Styling */
